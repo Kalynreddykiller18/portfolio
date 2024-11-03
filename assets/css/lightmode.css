@@ -867,6 +867,15 @@ main {
 
 .skills-title { margin-bottom: 20px; }
 
+.skills .row{
+  display: flex;
+  flex-direction: column;
+}
+
+.column{
+  margin-bottom: 20px;
+}
+
 .skills-list { padding: 20px; }
 
 
