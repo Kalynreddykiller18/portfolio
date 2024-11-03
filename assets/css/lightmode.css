@@ -872,6 +872,13 @@ main {
 
 .skills-item:not(:last-child) { margin-bottom: 15px; }
 
+.skill-title{
+  width: 100%;
+  height: 1px;
+  background: var(--border-gradient-onyx);
+  margin: 16px 0;
+}
+
 .skill .title-wrapper {
   display: flex;
   align-items: center;

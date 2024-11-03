@@ -84,7 +84,9 @@ const selectItems = document.querySelectorAll("[data-select-item]");
 const selectValue = document.querySelector("[data-selecct-value]");
 const filterBtn = document.querySelectorAll("[data-filter-btn]");
 
-select.addEventListener("click", function () { elementToggleFunc(this); });
+select.addEventListener("click", function () { elementToggleFunc(this);
+  console.log(sele)
+ });
 
 // add event in all select items
 for (let i = 0; i < selectItems.length; i++) {
@@ -114,6 +116,8 @@ const filterFunc = function (selectedValue) {
     }
 
   }
+
+  console.log(filterItems)
 
 }
 
@@ -156,6 +160,22 @@ for (let i = 0; i < formInputs.length; i++) {
 
   });
 }
+
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  var maildata = {fullname:formInputs[0].value ,mail:formInputs[0].value, message: formInputs[0].value}
+  fetch('https://oiaes.netlify.app/api/sendmailkalyan',{
+    method:'POST',
+    mode:'cors',
+    headers:{
+      'Content-Type':'application/json',
+    },
+    body: JSON.stringify(maildata)
+  })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(err => console.log(err))
+})
 
 
 
