@@ -1,188 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>B Kalyan Reddy - Portfolio</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>B Kalyan Reddy - Portfolio</title>
-
-  
-  <!-- <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon"> -->
-
-  <!--
-    - custom css links
-  -->
-  <!-- <link id="theme-link rel="stylesheet" href="./assets/css/darkmode.css" id="dark-mode"> -->
-  <link id="theme-link" rel="stylesheet" href="./assets/css/lightmode.css" id="light-mode">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-  <!-- Add Font Awesome CDN link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-</head>
-
-<body>
-
-  <!--
-    - #MAIN
-  -->
-  <button id="mode-toggle" class="mode-toggle">
-    <!-- <i id="mode-icon" class="fas fa-sun"></i> -->
-  </button>
-
-  <main>
+    <!-- <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon"> -->
 
     <!--
+    - custom css links
+  -->
+    <!-- <link id="theme-link rel="stylesheet" href="./assets/css/darkmode.css" id="dark-mode"> -->
+    <link
+      id="theme-link"
+      rel="stylesheet"
+      href="./assets/css/lightmode.css"
+      id="light-mode"
+    />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Add Font Awesome CDN link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+    <button id="mode-toggle" class="mode-toggle">
+      <!-- <i id="mode-icon" class="fas fa-sun"></i> -->
+    </button>
+
+    <main>
+      <!--
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <!-- <figure class="avatar-box">
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <!-- <figure class="avatar-box">
           <img src="./assets/images/profile-avatar.png" alt="Your Name" width="80">
         </figure> -->
 
-        <div class="info-content">
-          <h1 class="name" title="Your Name">B Kalyan Reddy</h1>
+          <div class="info-content">
+            <h1 class="name" title="Your Name">B Kalyan Reddy</h1>
 
-          <p class="title"> Full-stack Web Developer </p>
+            <p class="title">Full-stack Web Developer</p>
+          </div>
+
+          <button
+            style="background: white; color: black"
+            class="info_more-btn"
+            data-sidebar-btn
+          >
+            <span style="background: white; color: black">Show Contacts</span>
+
+            <ion-icon
+              style="background: white; color: black"
+              name="chevron-down"
+            ></ion-icon>
+          </button>
         </div>
 
-        <button style="background: white; color: black;" class="info_more-btn" data-sidebar-btn>
-          <span style="background: white; color: black;" >Show Contacts</span>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-          <ion-icon style="background: white; color: black;" name="chevron-down"></ion-icon>
-        </button>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
 
-      </div>
+              <div class="contact-info">
+                <!-- <p class="contact-title">Email</p> -->
 
-      <div class="sidebar-info_more">
+                <a
+                  href="mailto:bejjankikalyanreddy@gmail.com"
+                  class="contact-link"
+                  >bejjankikalyanreddy@gmail.com</a
+                >
+              </div>
+            </li>
 
-        <div class="separator"></div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
 
-        <ul class="contacts-list">
+              <div class="contact-info">
+                <a href="tel:+00000000" class="contact-link">+91 9701636471</a>
+              </div>
+            </li>
 
-          <li class="contact-item">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+              <div class="contact-info">
+                <!-- <p class="contact-title">Location</p> -->
+                <address>Hyderabad</address>
+              </div>
+            </li>
+          </ul>
 
-            <div class="contact-info">
-              <!-- <p class="contact-title">Email</p> -->
+          <div class="separator"></div>
 
-              <a href="mailto:bejjankikalyanreddy@gmail.com" class="contact-link">bejjankikalyanreddy@gmail.com</a>
-            </div>
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://linkedin.com/in/kalyanbejjanki"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin" class="ion-2"></ion-icon>
+              </a>
+            </li>
 
-          </li>
+            <li class="social-item">
+              <a
+                href="https://github.com/Kalynreddykiller18"
+                class="social-link"
+              >
+                <ion-icon name="logo-github" class="ion-2"></ion-icon>
+              </a>
+            </li>
 
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-          <div class="contact-info">
-              <a href="tel:+00000000" class="contact-link">+91 9701636471</a>
-            </div>
-
-          </li>
-
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <!-- <p class="contact-title">Location</p> -->
-              <address>Hyderabad</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://linkedin.com/in/kalyanbejjanki" class="social-link">
-              <ion-icon name="logo-linkedin" class="ion-2"></ion-icon>
-            </a>
-          </li>
-
-
-          <li class="social-item">
-            <a href="https://github.com/Kalynreddykiller18" class="social-link">
-              <ion-icon name="logo-github" class="ion-2"></ion-icon>
-            </a>
-          </li>
-
-          <!-- <li class="social-item">
+            <!-- <li class="social-item">
             <a href="https://medium.com/" class="social-link">
               <ion-icon name="logo-medium" class="ion-2"></ion-icon>
             </a>
           </li> -->
 
-          <!-- Any link           -->
-          <!-- <li class="social-item">
+            <!-- Any link           -->
+            <!-- <li class="social-item">
             <a href="https://" class="social-link">
               <ion-icon name="link" class="ion-2"></ion-icon>
             </a>
           </li> -->
+          </ul>
+        </div>
+      </aside>
 
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
+      <!--
       - #main-content
     -->
 
-    <div class="main-content">
-
-      <!--
+      <div class="main-content">
+        <!--
         - #NAVBAR
       -->
 
-      <nav class="navbar">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
 
-        <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Development</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Skills</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Development</button>
-          </li>
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Skills</button>
-          </li>
-
-          <!--
+            <!--
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Blog</button>
@@ -191,61 +189,58 @@
             <button class="navbar-link" data-nav-link>Books</button>
           </li> -->
 
-          <!-- <li class="navbar-item">
+            <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li> -->
+          </ul>
+        </nav>
 
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
+        <!--
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
+          <section class="about-text">
+            <p>
+              Hello! I'm Bejjanki Kalyan Reddy, worked as Full-stack developer
+              in Wipro for 2 years 7 months.<br />
+              Currently looking for opportunities as Full-stack Developer
+            </p>
+          </section>
 
-        <section class="about-text">
-          <p>
-            Hello! I'm Bejjanki Kalyan Reddy, worked as Full-stack developer in Wipro for 2 years 7 months.<br/>
-            Currently looking for opportunities as Full-stack Developer
-          </p>
-        </section>
-
-
-        <!--
+          <!--
           - service
         -->
 
-        <section class="service">
+          <section class="service">
+            <h3 class="h3 service-title">What I'm doing</h3>
 
-          <h3 class="h3 service-title">What I'm doing</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
 
-          <ul class="service-list">
-            <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Full-stack Web development
+                  </h4>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Full-stack Web development</h4>
-
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level using MERN stack.
-                </p>
-              </div>
-
-            </li>
-            <!-- <li class="service-item">
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level
+                    using MERN stack.
+                  </p>
+                </div>
+              </li>
+              <!-- <li class="service-item">
 
               <div class="service-icon-box">
                 <img src="./assets/images/icon-design.svg
@@ -261,54 +256,53 @@
               </div>
 
             </li> -->
-          </ul>
-
-        </section>
-
-
-        
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Dr.John Doe</h4>
-
-              <time datetime="2021-06-14">25 September, 2023</time>
-
-              <div data-modal-text>
-                                  <p>John is a dedicated professional with excellent skills in software development and teaching.</p>
-              </div>
-
-            </div>
-
+            </ul>
           </section>
 
-        </div>
-        <!--
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Dr.John Doe</h4>
+
+                <time datetime="2021-06-14">25 September, 2023</time>
+
+                <div data-modal-text>
+                  <p>
+                    John is a dedicated professional with excellent skills in
+                    software development and teaching.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!--
         - #CONTACT
       -->
 
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
 
-        <!-- <section class="mapbox" data-mapbox>
+          <!-- <section class="mapbox" data-mapbox>
           <figure>
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d7937.706352295871!2d24.91859128259448!3d60.173671100544986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d60.178126899999995!2d24.920229199999998!4m5!1s0x46920bc796210691%3A0xcd4ebd843be2f763!2shelsinki!3m2!1d60.1698557!2d24.9383791!5e0!3m2!1sen!2sfi!4v1706128445371!5m2!1sen!2sfi"
@@ -317,11 +311,10 @@
           </figure>
         </section> -->
 
-        <section class="contact-form">
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
 
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <!-- <ul class="social-list" style="position: left;">
+            <!-- <ul class="social-list" style="position: left;">
 
             <li class="social-item">
 
@@ -337,494 +330,509 @@
             </li>
           </ul> -->
 
-          <form action="#" class="form" data-form>
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Education</h3>
             </div>
 
-            <h3 class="h3">Education</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Kakatiya University</h4>
 
-          <ol class="timeline-list">
+                <span>2018 — 2024</span>
+                <p class="timeline-text">Degree : Bachelor of Technology</p>
+                <p class="timeline-text">Course : Information Technology</p>
 
-            <li class="timeline-item">
+                <p class="timeline-text">GPA : 7.5/10</p>
+              </li>
 
-              <h4 class="h4 timeline-item-title">Kakatiya University
-              </h4>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">NRI Junior college</h4>
 
-              <span>2018 — 2024</span>
-              <p class="timeline-text">
-                Degree : Bachelor of Technology
-              </p>
-              <p class="timeline-text">
-                Course : Information Technology
-              </p>
+                <span>2016 — 2018</span>
 
-              <p class="timeline-text">
-                GPA : 7.5/10
-              </p>
+                <p class="timeline-text">GPA : 9.7/10</p>
+              </li>
+            </ol>
+          </section>
 
-            </li>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">NRI Junior college</h4>
-
-              <span>2016 — 2018</span>
-
-              <p class="timeline-text">
-                GPA : 9.7/10 </p>
-
-            </li>
-
-
-
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Experience</h3>
             </div>
 
-            <h3 class="h3">Experience</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Software Engineer</h4>
+                <h5 class="h5 timeline-item-title">Wipro pvt ltd</h5>
 
-          <ol class="timeline-list">
+                <span>2022 April — 2024 October</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  Utilized React.js to improve the frontend user interface,
+                  resolving UI/UX issues and enhancing user satisfaction across
+                  all internal platforms. Implemented new features using
+                  JavaScript and React.js, adding dynamic functionality and
+                  interactive elements that increased employee engagement on
+                  internal sites. Collaborated with designers and backend
+                  developers to roll out new features, aligning development
+                  efforts with business objectives and ensuring smooth
+                  integration of React.js components with back-end services.
+                  Optimized site performance using JavaScript, reducing load
+                  times and improving responsiveness to enhance overall
+                  usability and user experience.
+                </p>
+              </li>
 
-              <h4 class="h4 timeline-item-title">Software Engineer</h4>
-              <h5 class="h5 timeline-item-title">Wipro pvt ltd</h5>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Full-stak Developer</h4>
+                <h5 class="h5 timeline-item-title">
+                  Wipro pvt ltd - ICICI(client)
+                </h5>
 
-              <span>2022 April — 2024 October</span>
+                <span>2022 September — 2024 October</span>
 
-              <p class="timeline-text">
-                Utilized React.js to improve the frontend user interface, resolving UI/UX issues and enhancing user satisfaction across all internal
-                platforms.
-                Implemented new features using JavaScript and React.js, adding dynamic functionality and interactive elements that increased
-                employee engagement on internal sites.
-                Collaborated with designers and backend developers to roll out new features, aligning development efforts with business
-                objectives and ensuring smooth integration of React.js components with back-end services.
-                Optimized site performance using JavaScript, reducing load times and improving responsiveness to enhance overall usability and
-                user experience.
-              </p>
+                <p class="timeline-text">
+                  Leveraged Vue.js and Redux to manage and optimize ICICI Bank’s
+                  websites, ensuring high availability, improved performance,
+                  and secure operations across platforms. Implemented solutions
+                  using Next.js to enhance site performance through server-side
+                  rendering (SSR) and static site generation (SSG), improving
+                  load times and user experience. Developed and maintained
+                  reusable UI components using CSS and HTML, standardizing
+                  design and improving development efficiency across various
+                  interfaces. Led the migration of websites from React.js to
+                  Next.js, optimizing application architecture and reducing
+                  server response times by employing modern web technologies.
+                  Utilized UrbanCode Deployment Tool to manage deployment
+                  processes, ensuring seamless updates with zero downtime,
+                  maintaining consistent service availability. Integrated
+                  MongoDB databases to support backend data storage and
+                  retrieval, ensuring efficient interaction with front-end
+                  components and maintaining data integrity
+                </p>
+              </li>
+            </ol>
+          </section>
+        </article>
 
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Full-stak Developer</h4>
-              <h5 class="h5 timeline-item-title">Wipro pvt ltd - ICICI(client)</h5>
-
-              <span>2022 September — 2024 October</span>
-
-              <p class="timeline-text">
-                Leveraged Vue.js and Redux to manage and optimize ICICI Bank’s websites, ensuring high availability, improved performance,
-                and secure operations across platforms.
-                Implemented solutions using Next.js to enhance site performance through server-side rendering (SSR) and static site generation
-                (SSG), improving load times and user experience.
-                Developed and maintained reusable UI components using CSS and HTML, standardizing design and improving development
-                efficiency across various interfaces.
-                Led the migration of websites from React.js to Next.js, optimizing application architecture and reducing server response times
-                by employing modern web technologies.
-                Utilized UrbanCode Deployment Tool to manage deployment processes, ensuring seamless updates with zero downtime,
-                maintaining consistent service availability.
-                Integrated MongoDB databases to support backend data storage and retrieval, ensuring efficient interaction with front-end
-                components and maintaining data integrity
-              </p>
-            </li>
-          </ol>
-
-        </section>
-
-        
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #development
       -->
 
-      <article class="development" data-page="development">
+        <article class="development" data-page="development">
+          <header>
+            <h2 class="h2 article-title">projects</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">projects</h2>
-        </header>
-
-        <section class="projects">
-
-          <!-- Large screen -->
-          <ul  class="filter-list">
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-            <li class="filter-item">
-              <button data-filter-btn>Freelance</button>
-            </li>
-            <li class="filter-item">
-              <button data-filter-btn>Personal</button>
-            </li>
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" style="background: white; color: black;" data-select>
-
-              <div class="select-value" data-selecct-value style="background: white; color: black;">Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-              
-
-            </button>
-
-            <!-- Mobile screen -->
-            <ul style="background-color: red;" class="select-list" style="background: white; color: black;">
-
-              <li class="select-item">
-                <button data-select-item style="background: white; color: black;">All</button>
+          <section class="projects">
+            <!-- Large screen -->
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
               </li>
-
-
-              <li class="select-item">
-                <button style="background: white; color: black;" data-select-item>Freelance</button>
+              <li class="filter-item">
+                <button data-filter-btn>Freelance</button>
               </li>
-
-              <li class="select-item">
-                <button style="background: white; color: black;" data-select-item>Personal</button>
+              <li class="filter-item">
+                <button data-filter-btn>Personal</button>
               </li>
-
             </ul>
 
-          </div>
+            <div class="filter-select-box">
+              <button
+                class="filter-select"
+                style="background: white; color: black"
+                data-select
+              >
+                <div
+                  class="select-value"
+                  data-selecct-value
+                  style="background: white; color: black"
+                >
+                  Select category
+                </div>
 
-          <ul class="project-list">
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
 
-            <li class="project-item  active" data-filter-item data-category="freelance">
-              <a href="https://oiaes.com" target="_blank">
+              <!-- Mobile screen -->
+              <ul
+                style="background-color: red"
+                class="select-list"
+                style="background: white; color: black"
+              >
+                <li class="select-item">
+                  <button
+                    data-select-item
+                    style="background: white; color: black"
+                  >
+                    All
+                  </button>
+                </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                <li class="select-item">
+                  <button
+                    style="background: white; color: black"
+                    data-select-item
+                  >
+                    Freelance
+                  </button>
+                </li>
 
-                  <img src="./assets/images/OIAES.png " alt="smartsl" loading="lazy">
-                </figure>
+                <li class="select-item">
+                  <button
+                    style="background: white; color: black"
+                    data-select-item
+                  >
+                    Personal
+                  </button>
+                </li>
+              </ul>
+            </div>
 
-                <h3 class="project-title">OIAES Systems</h3>
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="freelance"
+              >
+                <a href="https://oiaes.com" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <p class="project-category">Freelance </p>
-                <p class="project-category">React, Next, Tailwind</p>
+                    <img
+                      src="./assets/images/OIAES.png "
+                      alt="smartsl"
+                      loading="lazy"
+                    />
+                  </figure>
 
-              </a>
-            </li>
+                  <h3 class="project-title">OIAES Systems</h3>
 
-            <li class="project-item  active" data-filter-item data-category="personal">
-              <a href="https://agritech123.netlify.app/login">
+                  <p class="project-category">Freelance</p>
+                  <p class="project-category">React, Next, Tailwind</p>
+                </a>
+              </li>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="personal"
+              >
+                <a target="_blank" href="https://agritech123.netlify.app/login">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                  <img src="./assets/images/agritech.png" alt="github" loading="lazy">
-                </figure>
+                    <img
+                      src="./assets/images/agritech.png"
+                      alt="github"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                <h3 class="project-title">Agritech</h3>
-                <p class="project-category">Personal</p>
-                <p class="project-category">React, Bootstrap, Commerse.js</p>
-              </a>
-            </li>
-          </ul>
+                  <h3 class="project-title">Agritech</h3>
+                  <p class="project-category">Personal</p>
+                  <p class="project-category">React, Bootstrap, Commerse.js</p>
+                </a>
+              </li>
 
-        </section>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="personal"
+              >
+                <a
+                  target="_blank"
+                  href="https://authedemobykalyan.netlify.app/"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-      </article>
+                    <img
+                      src="./assets/images/authdemo.png"
+                      alt="github"
+                      loading="lazy"
+                    />
+                  </figure>
 
-      <!--
+                  <h3 class="project-title">Authentication Demo</h3>
+                  <p class="project-category">Personal</p>
+                  <p class="project-category">React, Express, MongoDB</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
         - #RESEARCH
       -->
 
-      <article class="skills" data-page="skills">
-        <section class="skill">
+        <article class="skills" data-page="skills">
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+            <div class="row">
+              <div class="column">
+                <ul class="skills-list content-card">
+                  <div class="">Programming Languages</div>
+                  <div class="skill-title"></div>
+                  <li class="skills-item">
+                    <div class="title-wrapper">
+                      <h5 class="h5">Python</h5>
+                      <data value="80">80%</data>
+                    </div>
 
-          <h3 class="h3 skills-title">My skills</h3>
-          <div class="row">
-            <div class="column">
+                    <div class="skill-progress-bg">
+                      <div class="skill-progress-fill" style="width: 80%"></div>
+                    </div>
+                  </li>
 
-              <ul class="skills-list content-card">
-                <div class=""> Programming Languages</div>
-                <div class="skill-title"></div>
-                <li class="skills-item">
-                  <div class="title-wrapper">
-                    <h5 class="h5"> Python</h5>
-                    <data value="80">80%</data>
-                  </div>
+                  <li class="skills-item">
+                    <div class="title-wrapper">
+                      <h5 class="h5">C++</h5>
+                      <data value="70">70%</data>
+                    </div>
 
-                  <div class="skill-progress-bg">
-                    <div class="skill-progress-fill" style="width: 80%;"></div>
-                  </div>
-                  
+                    <div class="skill-progress-bg">
+                      <div class="skill-progress-fill" style="width: 70%"></div>
+                    </div>
+                  </li>
 
-                </li>
+                  <li class="skills-item">
+                    <div class="title-wrapper">
+                      <h5 class="h5">c#</h5>
+                      <data value="90">90%</data>
+                    </div>
 
-                <li class="skills-item">
+                    <div class="skill-progress-bg">
+                      <div class="skill-progress-fill" style="width: 90%"></div>
+                    </div>
+                  </li>
 
-                  <div class="title-wrapper">
-                    <h5 class="h5"> C++</h5>
-                    <data value="70">70%</data>
-                  </div>
+                  <li class="skills-item">
+                    <div class="title-wrapper">
+                      <h5 class="h5">Java</h5>
+                      <data value="80">80%</data>
+                    </div>
 
-                  <div class="skill-progress-bg">
-                    <div class="skill-progress-fill" style="width: 70%;"></div>
-                  </div>
+                    <div class="skill-progress-bg">
+                      <div class="skill-progress-fill" style="width: 80%"></div>
+                    </div>
+                  </li>
 
-                </li>
+                  <li class="skills-item">
+                    <div class="title-wrapper">
+                      <h5 class="h5">MongoDB, MySQL</h5>
+                      <data value="0">80%</data>
+                    </div>
 
-                <li class="skills-item">
+                    <div class="skill-progress-bg">
+                      <div class="skill-progress-fill" style="width: 80%"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
 
-                  <div class="title-wrapper">
-                    <h5 class="h5"> c# </h5>
-                    <data value="90">90%</data>
-                  </div>
+              <div class="column">
+                <ul class="skills-list content-card">
+                  <div class="">Web Development technologies</div>
+                  <div class="skill-title"></div>
+                  <li class="skills-item">
+                    <div class="title-wrapper">
+                      <h5 class="h5">HTML, CSS and JavaScript</h5>
+                      <data value="95">95%</data>
+                    </div>
 
-                  <div class="skill-progress-bg">
-                    <div class="skill-progress-fill" style="width: 90%;"></div>
-                  </div>
+                    <div class="skill-progress-bg">
+                      <div class="skill-progress-fill" style="width: 95%"></div>
+                    </div>
+                  </li>
 
-                </li>
+                  <li class="skills-item">
+                    <div class="title-wrapper">
+                      <h5 class="h5">Node.js and Express.js</h5>
+                      <data value="90">90%</data>
+                    </div>
 
-                <li class="skills-item">
+                    <div class="skill-progress-bg">
+                      <div class="skill-progress-fill" style="width: 90%"></div>
+                    </div>
+                  </li>
 
-                  <div class="title-wrapper">
-                    <h5 class="h5"> Java </h5>
-                    <data value="80">80%</data>
-                  </div>
+                  <li class="skills-item">
+                    <div class="title-wrapper">
+                      <h5 class="h5">React.js</h5>
+                      <data value="90">90%</data>
+                    </div>
 
-                  <div class="skill-progress-bg">
-                    <div class="skill-progress-fill" style="width: 80%;"></div>
-                  </div>
+                    <div class="skill-progress-bg">
+                      <div class="skill-progress-fill" style="width: 90%"></div>
+                    </div>
+                  </li>
 
-                </li>
+                  <li class="skills-item">
+                    <div class="title-wrapper">
+                      <h5 class="h5">Next.js</h5>
+                      <data value="80">80%</data>
+                    </div>
 
+                    <div class="skill-progress-bg">
+                      <div class="skill-progress-fill" style="width: 80%"></div>
+                    </div>
+                  </li>
 
+                  <li class="skills-item">
+                    <div class="title-wrapper">
+                      <h5 class="h5">Vue.js</h5>
+                      <data value="70">70%</data>
+                    </div>
 
-                <li class="skills-item">
+                    <div class="skill-progress-bg">
+                      <div class="skill-progress-fill" style="width: 70%"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
 
-                  <div class="title-wrapper">
-                    <h5 class="h5"> MongoDB, MySQL </h5>
-                    <data value="0">80%</data>
-                  </div>
+              <div class="column">
+                <ul class="skills-list content-card">
+                  <div class="">Database</div>
+                  <div class="skill-title"></div>
+                  <li class="skills-item">
+                    <div class="title-wrapper">
+                      <h5 class="h5">SQL</h5>
+                      <data value="90">90%</data>
+                    </div>
 
-                  <div class="skill-progress-bg">
-                    <div class="skill-progress-fill" style="width: 80%;"></div>
-                  </div>
+                    <div class="skill-progress-bg">
+                      <div class="skill-progress-fill" style="width: 90%"></div>
+                    </div>
+                  </li>
 
-                </li>
+                  <li class="skills-item">
+                    <div class="title-wrapper">
+                      <h5 class="h5">MongoDB</h5>
+                      <data value="95">95%</data>
+                    </div>
 
+                    <div class="skill-progress-bg">
+                      <div class="skill-progress-fill" style="width: 95%"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
 
-              </ul>
+              <div class="column">
+                <ul class="skills-list content-card">
+                  <div class="">Game Development</div>
+                  <div class="skill-title"></div>
+                  <li class="skills-item">
+                    <div class="title-wrapper">
+                      <h5 class="h5">Unity</h5>
+                      <data value="80">80%</data>
+                    </div>
+
+                    <div class="skill-progress-bg">
+                      <div class="skill-progress-fill" style="width: 80%"></div>
+                    </div>
+                  </li>
+
+                  <li class="skills-item">
+                    <div class="title-wrapper">
+                      <h5 class="h5">Blender</h5>
+                      <data value="75">75%</data>
+                    </div>
+
+                    <div class="skill-progress-bg">
+                      <div class="skill-progress-fill" style="width: 75%"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </section>
+        </article>
+      </div>
+    </main>
 
-            <div class="column">
-              <ul class="skills-list content-card">
-                <div class=""> Web Development technologies</div>
-                <div class="skill-title"></div>
-                <li class="skills-item">
-
-                  <div class="title-wrapper">
-                    <h5 class="h5"> HTML, CSS and JavaScript </h5>
-                    <data value="95">95%</data>
-                  </div>
-
-                  <div class="skill-progress-bg">
-                    <div class="skill-progress-fill" style="width: 95%;"></div>
-                  </div>
-
-                </li>
-
-                <li class="skills-item">
-
-                  <div class="title-wrapper">
-                    <h5 class="h5"> Node.js and Express.js</h5>
-                    <data value="90">90%</data>
-                  </div>
-
-                  <div class="skill-progress-bg">
-                    <div class="skill-progress-fill" style="width: 90%;"></div>
-                  </div>
-
-                </li>
-
-                <li class="skills-item">
-
-                  <div class="title-wrapper">
-                    <h5 class="h5"> React.js</h5>
-                    <data value="90">90%</data>
-                  </div>
-
-                  <div class="skill-progress-bg">
-                    <div class="skill-progress-fill" style="width: 90%;"></div>
-                  </div>
-
-                </li>
-
-                <li class="skills-item">
-
-                  <div class="title-wrapper">
-                    <h5 class="h5">Next.js</h5>
-                    <data value="80">80%</data>
-                  </div>
-
-                  <div class="skill-progress-bg">
-                    <div class="skill-progress-fill" style="width: 80%;"></div>
-                  </div>
-
-                </li>
-
-                <li class="skills-item">
-
-                  <div class="title-wrapper">
-                    <h5 class="h5">Vue.js</h5>
-                    <data value="70">70%</data>
-                  </div>
-
-                  <div class="skill-progress-bg">
-                    <div class="skill-progress-fill" style="width: 70%;"></div>
-                  </div>
-
-                </li>
-
-              </ul>
-            </div>
-
-            <div class="column">
-              <ul class="skills-list content-card">
-                <div class=""> Database</div>
-                <div class="skill-title"></div>
-                <li class="skills-item">
-
-                  <div class="title-wrapper">
-                    <h5 class="h5"> SQL</h5>
-                    <data value="90">90%</data>
-                  </div>
-
-                  <div class="skill-progress-bg">
-                    <div class="skill-progress-fill" style="width: 90%;"></div>
-                  </div>
-
-                </li>
-
-                <li class="skills-item">
-
-                  <div class="title-wrapper">
-                    <h5 class="h5"> MongoDB</h5>
-                    <data value="95">95%</data>
-                  </div>
-
-                  <div class="skill-progress-bg">
-                    <div class="skill-progress-fill" style="width: 95%;"></div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-
-            <div class="column">
-              <ul class="skills-list content-card">
-                <div class=""> Game Development</div>
-                <div class="skill-title"></div>
-                <li class="skills-item">
-
-                  <div class="title-wrapper">
-                    <h5 class="h5"> Unity</h5>
-                    <data value="80">80%</data>
-                  </div>
-
-                  <div class="skill-progress-bg">
-                    <div class="skill-progress-fill" style="width: 80%;"></div>
-                  </div>
-
-                </li>
-
-                <li class="skills-item">
-
-                  <div class="title-wrapper">
-                    <h5 class="h5"> Blender</h5>
-                    <data value="75">75%</data>
-                  </div>
-
-                  <div class="skill-progress-bg">
-                    <div class="skill-progress-fill" style="width: 75%;"></div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </section>        
-      </article>
-    </div>
-
-  </main>
-
-
-  <!--
+    <!--
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-  <!--
+    <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
